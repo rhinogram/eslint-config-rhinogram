@@ -5,9 +5,6 @@ module.exports = {
     "es6": true
   },
   "extends": "airbnb",
-  "ecmaFeatures": {
-    "modules": true
-  },
   "globals": {
     "$": true,
     "describe": true,
