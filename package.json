@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rhinogram",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint configs for Rhinogram",
   "main": "index.js",
   "author": "Rhinogram, LLC",
