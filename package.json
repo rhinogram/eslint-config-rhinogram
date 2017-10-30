@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rhinogram",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Eslint configs for Rhinogram",
   "main": "react.js",
   "author": "Rhinogram, LLC",
