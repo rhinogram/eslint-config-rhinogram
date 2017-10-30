@@ -2,7 +2,7 @@
   "name": "eslint-config-rhinogram",
   "version": "0.0.4",
   "description": "Eslint configs for Rhinogram",
-  "main": "index.js",
+  "main": "react.js",
   "author": "Rhinogram, LLC",
   "license": "MIT",
   "dependencies": {
