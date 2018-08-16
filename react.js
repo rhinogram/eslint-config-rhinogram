@@ -10,7 +10,7 @@ module.exports = {
   },
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 9,
     "sourceType": "module",
     "ecmaFeatures": {
       "arrowFunctions": true,
@@ -35,7 +35,6 @@ module.exports = {
       "unicodeCodePointEscapes": true,
       "globalReturn": true,
       "jsx": true,
-      "experimentalObjectRestSpread": true
     }
   },
   "plugins": [
