@@ -52,7 +52,7 @@ module.exports = {
     // "jsx-a11y/click-events-have-key-events": 0,
     // "jsx-a11y/no-static-element-interactions": 0,
     // "key-spacing": [2, { "mode": "minimum" }],
-       "max-len": ["error", { "code": 120 }],
+       "max-len": [1, { "code": 200 }],
     // "no-confusing-arrow": ["error", {"allowParens": true}],
     // "no-multi-assign" : 0,
     // "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
