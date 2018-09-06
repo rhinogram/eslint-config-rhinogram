@@ -90,7 +90,8 @@ module.exports = {
     "react/sort-comp": 0,
     "react/require-default-props": 0,
     "max-len": [1, { "code": 350 }], // try to bring this down to at least 120 over time
-    "react/forbid-prop-types": 0
+    "react/forbid-prop-types": 0,
+    "jsx-a11y/label-has-associated-control": 0
     /////////
   }
 };
