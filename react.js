@@ -74,9 +74,11 @@ module.exports = {
       "react/destructuring-assignment": 0,
       "react/jsx-one-expression-per-line": 0,
 
-      // TODO: Over time try to fix these
+      // TODO: Over time try to remove these
+      "object-curly-newline": 0,
+      "react/sort-comp": 0,
       "react/require-default-props": 0,
       "max-len": [1, { "code": 200 }], // try to bring this down to at least 120 over time
-      "react/forbid-prop-types": 0 // airbnb, use going forward in new code if possible
+      "react/forbid-prop-types": 0
   }
 };
