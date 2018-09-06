@@ -52,7 +52,7 @@ module.exports = {
     // "jsx-a11y/click-events-have-key-events": 0,
     // "jsx-a11y/no-static-element-interactions": 0,
     // "key-spacing": [2, { "mode": "minimum" }],
-    // "max-len": [0],
+    "max-len": [120],
     // "no-confusing-arrow": ["error", {"allowParens": true}],
     // "no-multi-assign" : 0,
     // "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
@@ -72,6 +72,7 @@ module.exports = {
     // "react/require-default-props": 0,
     // "space-before-function-paren": ["error", "never"],
     // "spaced-comment": 0
-      "react/jsx-one-expression-per-line": 0
+      "react/jsx-one-expression-per-line": 0,
+      "react/forbid-prop-types": 0 // airbnb, use going forward in new code if possible
   }
 };
