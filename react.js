@@ -72,5 +72,6 @@ module.exports = {
     // "react/require-default-props": 0,
     // "space-before-function-paren": ["error", "never"],
     // "spaced-comment": 0
+      "react/jsx-one-expression-per-line": 0
   }
 };
