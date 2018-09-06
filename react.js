@@ -61,13 +61,12 @@ module.exports = {
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "no-multi-assign" : 0,
-    //"no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-return-assign": ["error", "except-parens"],
     "no-script-url": 0,
     "no-use-before-define": ["error", { "functions": false }],
     "react/no-find-dom-node": 0,
-    "react/require-default-props": 0,
-    "space-before-function-paren": ["error", "never"],
+    //"space-before-function-paren": ["error", "never"],
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
