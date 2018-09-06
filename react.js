@@ -78,7 +78,7 @@ module.exports = {
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
-    "react/jsx-wrap-multilines": 0, // top priority
+    //"react/jsx-wrap-multilines": 2, // top priority
     "operator-linebreak": 0,
     "no-else-return": 0,
     "import/no-useless-path-segments": 0,
