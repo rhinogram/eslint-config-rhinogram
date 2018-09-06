@@ -77,7 +77,7 @@ module.exports = {
     "spaced-comment": 0,
     //////////
 
-    // TODO: Over time try to remove these
+    // TODO: Over time try to remove these - Airbnb suggestions
     "react/jsx-wrap-multilines": 0, // top priority
     "operator-linebreak": 0,
     "implicit-arrow-linebreak": 0,
@@ -85,7 +85,7 @@ module.exports = {
     "react/no-access-state-in-setstate": 0,
     "react/sort-comp": 0,
     "react/require-default-props": 0,
-    "max-len": [1, { "code": 200 }], // try to bring this down to at least 120 over time
+    "max-len": [1, { "code": 250 }], // try to bring this down to at least 120 over time
     "react/forbid-prop-types": 0
     /////////
   }
