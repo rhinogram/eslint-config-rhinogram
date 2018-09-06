@@ -52,6 +52,7 @@ module.exports = {
     "arrow-parens": 1,
     "import/prefer-default-export": 1,
     "react/prefer-stateless-function": 1,
+    "react/jsx-indent": 1,
     /////////
 
     // Old rules to investigate removing
@@ -60,11 +61,10 @@ module.exports = {
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "no-multi-assign" : 0,
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    //"no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-return-assign": ["error", "except-parens"],
     "no-script-url": 0,
     "no-use-before-define": ["error", { "functions": false }],
-    "react/jsx-indent": 1,
     "react/no-find-dom-node": 0,
     "react/require-default-props": 0,
     "space-before-function-paren": ["error", "never"],
@@ -75,7 +75,7 @@ module.exports = {
     "no-else-return": 0,
     "lines-between-class-members": 0,
     "implicit-arrow-linebreak": 0,
-    //"object-curly-newline": 0,
+    "object-curly-newline": 0,
     "react/no-access-state-in-setstate": 0,
     "react/sort-comp": 0,
     "react/require-default-props": 0,
