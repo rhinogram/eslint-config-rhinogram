@@ -47,35 +47,35 @@ module.exports = {
     "no-unused-vars": 1,
     "react/destructuring-assignment": 0,
     "react/jsx-one-expression-per-line": 0,
+    /////////
 
-    // Old rules to investigate
-    // "arrow-body-style": 1,
-    // "arrow-parens": 1,
-    // "class-methods-use-this": 0,
-    // "import/extensions": 0,
-    // "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-    // "import/prefer-default-export": 1,
-    // "jsx-a11y/click-events-have-key-events": 0,
-    // "jsx-a11y/no-static-element-interactions": 0,
-    // "key-spacing": [2, { "mode": "minimum" }],
-    // "no-confusing-arrow": ["error", {"allowParens": true}],
-    // "no-multi-assign" : 0,
-    // "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
-    // "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    // "no-return-assign": ["error", "except-parens"],
-    // "no-script-url": 0,
-    // "no-trailing-spaces": 1,
-    // "no-underscore-dangle": 0,
-    // "no-use-before-define": ["error", { "functions": false }],
-    // "object-curly-newline": 0,
-    // "react/forbid-prop-types": 0,
-    // "react/jsx-indent": 1,
-    // "react/no-find-dom-node": 0,
-    // "react/no-unused-prop-types": 1,
-    // "react/prefer-stateless-function": 1,
-    // "react/require-default-props": 0,
-    // "space-before-function-paren": ["error", "never"],
-    // "spaced-comment": 0
+    // Old rules to investigate removing
+    "arrow-body-style": 1,
+    "arrow-parens": 1,
+    "class-methods-use-this": 0,
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "import/prefer-default-export": 1,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "key-spacing": [2, { "mode": "minimum" }],
+    "no-confusing-arrow": ["error", {"allowParens": true}],
+    "no-multi-assign" : 0,
+    "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-return-assign": ["error", "except-parens"],
+    "no-script-url": 0,
+    "no-trailing-spaces": 1,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": ["error", { "functions": false }],
+    "react/jsx-indent": 1,
+    "react/no-find-dom-node": 0,
+    "react/no-unused-prop-types": 1,
+    "react/prefer-stateless-function": 1,
+    "react/require-default-props": 0,
+    "space-before-function-paren": ["error", "never"],
+    "spaced-comment": 0,
+    //////////
 
     // TODO: Over time try to remove these
     "react/jsx-wrap-multilines": 0, // top priority
@@ -87,5 +87,6 @@ module.exports = {
     "react/require-default-props": 0,
     "max-len": [1, { "code": 200 }], // try to bring this down to at least 120 over time
     "react/forbid-prop-types": 0
+    /////////
   }
 };
