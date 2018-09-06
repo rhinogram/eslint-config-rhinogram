@@ -72,6 +72,7 @@ module.exports = {
     // "react/require-default-props": 0,
     // "space-before-function-paren": ["error", "never"],
     // "spaced-comment": 0
+      "react/destructuring-assignment": 0,
       "react/jsx-one-expression-per-line": 0,
       "react/forbid-prop-types": 0 // airbnb, use going forward in new code if possible
   }
