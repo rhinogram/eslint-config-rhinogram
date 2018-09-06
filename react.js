@@ -70,14 +70,14 @@ module.exports = {
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
-    "no-else-return": 0,
-    "lines-between-class-members": 0,
+    "max-len": [0, { "code": 400 }], // try to bring this down to at least 120 over time
+    //"no-else-return": 0,
+    //"lines-between-class-members": 0,
     "react/no-access-state-in-setstate": 0,
     "react/sort-comp": 0,
     "react/require-default-props": 0,
-    "max-len": [0, { "code": 400 }], // try to bring this down to at least 120 over time
     "react/forbid-prop-types": 0,
-    //"jsx-a11y/label-has-associated-control": 0
+    "jsx-a11y/label-has-associated-control": 0
     /////////
   }
 };
