@@ -63,15 +63,15 @@ module.exports = {
     "react/no-find-dom-node": 0,
     "no-use-before-define": ["error", { "functions": false }],
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    // "no-return-assign": ["error", "except-parens"],
+    "no-return-assign": ["error", "except-parens"], // I think we want to keep
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
-    "operator-linebreak": 0,
+    //"operator-linebreak": 0,
     "no-else-return": 0,
     "lines-between-class-members": 0,
-    "object-curly-newline": 0,
+    //"object-curly-newline": 0,
     "react/no-access-state-in-setstate": 0,
     "react/sort-comp": 0,
     "react/require-default-props": 0,
