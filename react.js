@@ -66,14 +66,13 @@ module.exports = {
     "no-script-url": 0,
     "no-use-before-define": ["error", { "functions": false }],
     "react/no-find-dom-node": 0,
-    //"space-before-function-paren": ["error", "never"],
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
     "operator-linebreak": 0,
     "no-else-return": 0,
     "lines-between-class-members": 0,
-    "implicit-arrow-linebreak": 0,
+    //"implicit-arrow-linebreak": 0,
     "object-curly-newline": 0,
     "react/no-access-state-in-setstate": 0,
     "react/sort-comp": 0,
