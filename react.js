@@ -52,7 +52,6 @@ module.exports = {
     // "jsx-a11y/click-events-have-key-events": 0,
     // "jsx-a11y/no-static-element-interactions": 0,
     // "key-spacing": [2, { "mode": "minimum" }],
-       "max-len": [1, { "code": 200 }],
     // "no-confusing-arrow": ["error", {"allowParens": true}],
     // "no-multi-assign" : 0,
     // "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
@@ -61,7 +60,7 @@ module.exports = {
     // "no-script-url": 0,
     // "no-trailing-spaces": 1,
     // "no-underscore-dangle": 0,
-    // "no-unused-vars": 1,
+      "no-unused-vars": 1,
     // "no-use-before-define": ["error", { "functions": false }],
     // "object-curly-newline": 0,
     // "react/forbid-prop-types": 0,
@@ -74,6 +73,10 @@ module.exports = {
     // "spaced-comment": 0
       "react/destructuring-assignment": 0,
       "react/jsx-one-expression-per-line": 0,
+
+      // TODO: Over time try to fix these
+      "react/require-default-props": 0,
+      "max-len": [1, { "code": 200 }], // try to bring this down to at least 120 over time
       "react/forbid-prop-types": 0 // airbnb, use going forward in new code if possible
   }
 };
