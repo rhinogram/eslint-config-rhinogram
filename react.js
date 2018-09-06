@@ -76,10 +76,8 @@ module.exports = {
     // TODO: Over time try to remove these - Airbnb suggestions
     "operator-linebreak": 0,
     "no-else-return": 0,
-    "import/no-useless-path-segments": 0,
     "lines-between-class-members": 0,
     "implicit-arrow-linebreak": 0,
-    //"import/no-useless-path-segments": 0,
     "object-curly-newline": 0,
     "react/no-access-state-in-setstate": 0,
     "react/sort-comp": 0,
