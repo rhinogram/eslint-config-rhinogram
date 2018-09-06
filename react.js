@@ -44,34 +44,34 @@ module.exports = {
   ],
   "rules": {
     // Permanent rules to keep
-    "no-unused-vars": 1,
     "react/destructuring-assignment": 0,
     "react/jsx-one-expression-per-line": 0,
+    "no-unused-vars": 1,
+    "react/no-unused-prop-types": 1,
+    "arrow-body-style": 1,
+    "arrow-parens": 1,
+    "import/prefer-default-export": 1,
     /////////
 
     // Old rules to investigate removing
-    // "arrow-body-style": 1,
-    // "arrow-parens": 1,
     "class-methods-use-this": 0,
-    // "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-    "import/prefer-default-export": 1,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
-    "key-spacing": [2, { "mode": "minimum" }],
-    "no-confusing-arrow": ["error", {"allowParens": true}],
+    //"key-spacing": [2, { "mode": "minimum" }],
+    //"no-confusing-arrow": ["error", {"allowParens": true}],
     "no-multi-assign" : 0,
     "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-return-assign": ["error", "except-parens"],
     "no-script-url": 0,
     "no-use-before-define": ["error", { "functions": false }],
-    "react/jsx-indent": 1,
+    //"react/jsx-indent": 1,
     "react/no-find-dom-node": 0,
-    "react/no-unused-prop-types": 1,
-    "react/prefer-stateless-function": 1,
+    //"react/prefer-stateless-function": 1,
     "react/require-default-props": 0,
     "space-before-function-paren": ["error", "never"],
-    "spaced-comment": 0,
+    //"spaced-comment": 0,
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
