@@ -43,34 +43,40 @@ module.exports = {
     "jsx-a11y"
   ],
   "rules": {
+    // Permanent rules to keep
+    "react/destructuring-assignment": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "no-unused-vars": 1,
+    "react/no-unused-prop-types": 1,
     "arrow-body-style": 1,
     "arrow-parens": 1,
-    "class-methods-use-this": 0,
-    "import/extensions": 0,
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "import/prefer-default-export": 1,
+    "react/prefer-stateless-function": 1,
+    "react/jsx-indent": 1,
+    /////////
+
+    // Old rules to investigate removing
+    "class-methods-use-this": 0,
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
-    "key-spacing": [2, { "mode": "minimum" }],
-    "max-len": [0],
-    "no-confusing-arrow": ["error", {"allowParens": true}],
-    "no-multi-assign" : 0,
-    "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    "no-return-assign": ["error", "except-parens"],
-    "no-script-url": 0,
-    "no-trailing-spaces": 1,
     "no-underscore-dangle": 0,
-    "no-unused-vars": 1,
-    "no-use-before-define": ["error", { "functions": false }],
-    "object-curly-newline": 0,
-    "react/forbid-prop-types": 0,
-    "react/jsx-indent": 1,
+    "import/extensions": 0,
+    "no-script-url": 0,
     "react/no-find-dom-node": 0,
-    "react/no-unused-prop-types": 1,
-    "react/prefer-stateless-function": 1,
+    "no-use-before-define": ["error", { "functions": false }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-return-assign": ["error", "except-parens"], // I think we want to keep
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    //////////
+
+    // TODO: Over time try to remove these - Airbnb suggestions
+    "react/no-access-state-in-setstate": 0, // 76 of these, but we should do this -- https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
+    "max-len": [0, { "code": 400 }], // try to bring this down to at least 120 over time
+    "no-else-return": 0,
+    "react/sort-comp": 0,
     "react/require-default-props": 0,
-    "space-before-function-paren": ["error", "never"],
-    "spaced-comment": 0
+    "react/forbid-prop-types": 0,
+    "jsx-a11y/label-has-associated-control": 0
+    /////////
   }
 };
