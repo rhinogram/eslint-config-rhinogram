@@ -70,8 +70,13 @@ module.exports = {
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
+    "implicit-arrow-linebreak": 0,
+    "lines-between-class-members": 0,
+    "react/jsx-wrap-multilines": 0, // top priority
     "react/no-access-state-in-setstate": 0, // 76 of these, but we should do this -- https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
     "max-len": [0, { "code": 400 }], // try to bring this down to at least 120 over time
+    "operator-linebreak": 0,
+    "object-curly-newline": 0,
     "no-else-return": 0,
     "react/sort-comp": 0,
     "react/require-default-props": 0,
