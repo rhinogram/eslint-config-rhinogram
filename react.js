@@ -67,7 +67,6 @@ module.exports = {
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-return-assign": ["error", "except-parens"], // I think we want to keep
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-    "indent": ["error", 2],
     //////////
 
     // TODO: Over time try to remove these - Airbnb suggestions
