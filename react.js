@@ -53,7 +53,7 @@ module.exports = {
     "import/prefer-default-export": 1,
     "react/prefer-stateless-function": 1,
     "react/jsx-indent": 1,
-    "max-len": [1, { "code": 130 }], // try to bring this down to at least 120 over time
+    "max-len": [1, { "code": 170 }], // try to bring this down to at least 120 over time
 
     /////////
 
