@@ -53,7 +53,7 @@ module.exports = {
     "import/prefer-default-export": 1,
     "react/prefer-stateless-function": 1,
     "react/jsx-indent": 1,
-    "max-len": [1, { "code": 170 }], // try to bring this down to at least 120 over time
+    "max-len": [1, { "code": 170 }],
 
     /////////
 
@@ -74,7 +74,6 @@ module.exports = {
     // TODO: Over time try to remove these - Airbnb suggestions
     "implicit-arrow-linebreak": 0,
     "lines-between-class-members": 0,
-    // "react/jsx-wrap-multilines": 0, // top priority
     "react/no-access-state-in-setstate": 0, // 76 of these, but we should do this -- https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
     "operator-linebreak": 0,
     "object-curly-newline": 0,
