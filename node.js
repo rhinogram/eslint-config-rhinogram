@@ -3,19 +3,7 @@ module.exports = {
     "node": true,
     "es6": true
   },
-  "extends": "airbnb",
-  "globals": {
-    "$": true,
-    "describe": true,
-    "it": true,
-    "xit": true,
-    "sinon": true,
-    "expect": true,
-    "before": true,
-    "beforeEach": true,
-    "after": true,
-    "afterEach": true
-  },
+  "extends": "airbnb-base",
   "parser": "babel-eslint",
   "plugins": [
     "babel"
