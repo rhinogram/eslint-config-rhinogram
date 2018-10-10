@@ -9,7 +9,6 @@ module.exports = {
     "babel"
   ],
   "rules": {
-    "semi": 0,
     "generator-star-spacing": 0,
     "key-spacing": [2, { "mode": "minimum" }],
     "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
