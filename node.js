@@ -1,6 +1,5 @@
 module.exports = {
   "env": {
-    "browser": true,
     "node": true,
     "es6": true
   },
@@ -18,34 +17,6 @@ module.exports = {
     "afterEach": true
   },
   "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 9,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "arrowFunctions": true,
-      "binaryLiterals": true,
-      "blockBindings": false,
-      "classes": true,
-      "defaultParams": true,
-      "destructuring": true,
-      "forOf": true,
-      "generators": true,
-      "modules": true,
-      "objectLiteralComputedProperties": true,
-      "objectLiteralDuplicateProperties": true,
-      "objectLiteralShorthandMethods": true,
-      "objectLiteralShorthandProperties": true,
-      "octalLiterals": true,
-      "regexUFlag": true,
-      "regexYFlag": true,
-      "spread": true,
-      "superInFunctions": true,
-      "templateStrings": true,
-      "unicodeCodePointEscapes": true,
-      "globalReturn": true,
-      "jsx": true,
-    }
-  },
   "plugins": [
     "babel"
   ],
@@ -53,7 +24,7 @@ module.exports = {
     "generator-star-spacing": 0,
     "key-spacing": [2, { "mode": "minimum" }],
     "no-multi-spaces": [2, { "exceptions": { "ImportDeclaration": true, "VariableDeclarator": true } }],
-    "max-len": [0],
+    "max-len": [2],
     "no-script-url": 0,
     "no-underscore-dangle": 0,
     "space-before-function-paren": ["error", "never"],
