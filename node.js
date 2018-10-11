@@ -27,6 +27,7 @@ module.exports = {
     // "no-return-await": 2,
 
     // Permanent rules to keep
+    "prefer-destructuring": 0,
     "no-unused-vars": 1,
     "arrow-body-style": 1,
     "arrow-parens": 1,
