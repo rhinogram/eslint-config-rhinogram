@@ -11,6 +11,7 @@ module.exports = {
     "arrow-parens": 1,
     "import/prefer-default-export": 0,
     "max-len": [1, { code: 170 }],
-    "no-use-before-define": 0
+    "no-use-before-define": 0,
+    "no-param-reassign": 0
   }
 };
