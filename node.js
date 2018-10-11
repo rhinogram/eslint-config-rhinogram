@@ -28,7 +28,6 @@ module.exports = {
 
     // Permanent rules to keep
     "no-unused-vars": 1,
-    "react/no-unused-prop-types": 1,
     "arrow-body-style": 1,
     "arrow-parens": 1,
     "import/prefer-default-export": 1,
