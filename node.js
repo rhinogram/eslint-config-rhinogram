@@ -12,6 +12,7 @@ module.exports = {
     "import/prefer-default-export": 0,
     "max-len": [1, { code: 170 }],
     "no-use-before-define": 0,
-    "no-param-reassign": 0
+    "no-param-reassign": 0,
+    "import/no-cycle": 0
   }
 };
