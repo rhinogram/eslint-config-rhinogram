@@ -25,5 +25,25 @@ module.exports = {
     // "no-await-in-loop": 0,
     // "no-multi-assign": 0,
     // "no-return-await": 2,
+
+    // Permanent rules to keep
+    "no-unused-vars": 1,
+    "react/no-unused-prop-types": 1,
+    "arrow-body-style": 1,
+    "arrow-parens": 1,
+    "import/prefer-default-export": 1,
+    "max-len": [1, { "code": 170 }],
+
+        /////////
+
+        // Old rules to investigate removing
+        // "no-underscore-dangle": 0,
+        // "import/extensions": 0,
+        // "no-use-before-define": ["error", { "functions": false }],
+        // "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        // "no-return-assign": ["error", "except-parens"], // I think we want to keep
+        // "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+        //////////
+
   }
 };
