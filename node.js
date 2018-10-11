@@ -49,6 +49,5 @@ module.exports = {
     "arrow-parens": 1,
     "import/prefer-default-export": 1,
     "max-len": [1, { "code": 170 }],
-
   }
 };
