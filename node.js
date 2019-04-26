@@ -2,10 +2,10 @@ module.exports = {
   env: {
     node: true,
     es6: true,
-    'jest/globals': true,
+    jest: true,
   },
   extends: 'airbnb-base',
-  plugins: ['babel', 'jest'],
+  plugins: ['babel'],
   rules: {
     'no-unused-vars': 1,
     'arrow-body-style': 1,
