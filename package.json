@@ -6,7 +6,7 @@
   "author": "Rhinogram, LLC",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "8.2.2",
+    "babel-eslint": "8.2.6",
     "eslint": "6.0.1",
     "eslint-config-airbnb": "17.1.1",
     "eslint-loader": "2.2.1",
