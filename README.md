@@ -28,3 +28,8 @@ Alternatives:
   "extends": "rhinogram/node"
 }
 ```
+
+#### Updating this package
+When upgrading this eslint config, check the following:
+* Run `yarn audit` to ensure there are no security vulnerabilities.
+* Change the `package.json` version appropriately.
