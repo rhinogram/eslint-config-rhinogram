@@ -5,7 +5,7 @@ module.exports = {
     jest: true,
   },
   extends: 'airbnb-base',
-  plugins: ['babel'],
+  // plugins: ['babel'],
   rules: {
     'no-unused-vars': 1,
     'arrow-body-style': 1,
