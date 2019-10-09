@@ -53,7 +53,7 @@ module.exports = {
     "arrow-parens": 1,
     "import/prefer-default-export": 1,
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
     "react/prefer-stateless-function": 1,
     "react/jsx-indent": 1,
     "max-len": ['error', 170, 2, {
