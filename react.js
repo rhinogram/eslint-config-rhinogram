@@ -40,7 +40,8 @@ module.exports = {
   "plugins": [
     "react",
     "babel",
-    "jsx-a11y"
+    "jsx-a11y",
+    "react-hooks"
   ],
   "rules": {
     // Permanent rules to keep
@@ -51,6 +52,8 @@ module.exports = {
     "arrow-body-style": 1,
     "arrow-parens": 1,
     "import/prefer-default-export": 1,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
     "react/prefer-stateless-function": 1,
     "react/jsx-indent": 1,
     "max-len": ['error', 170, 2, {
