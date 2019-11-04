@@ -63,6 +63,7 @@ module.exports = {
       ignoreStrings: true,
       ignoreTemplateLiterals: true,
     }],
+    "react/no-did-update-set-state": 0,
 
     /////////
 
