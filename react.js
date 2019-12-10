@@ -64,6 +64,7 @@ module.exports = {
       ignoreTemplateLiterals: true,
     }],
     "react/no-did-update-set-state": 0,
+    "react/state-in-constructor": 0,
 
     /////////
 
