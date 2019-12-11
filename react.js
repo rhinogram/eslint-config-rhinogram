@@ -66,7 +66,7 @@ module.exports = {
     "react/no-did-update-set-state": 0,
     "react/state-in-constructor": 0,
     "react/jsx-props-no-spreading": 0,
-    "import/no-cycle": 0
+    "import/no-cycle": 0,
     "react/jsx-fragments": 0,
 
     /////////
