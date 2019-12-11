@@ -68,6 +68,7 @@ module.exports = {
     "react/jsx-props-no-spreading": 0,
     "import/no-cycle": 0,
     "react/jsx-fragments": 0,
+    "react/jsx-curly-newline": 0,
 
     /////////
 
