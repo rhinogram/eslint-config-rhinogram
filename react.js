@@ -63,12 +63,12 @@ module.exports = {
       ignoreStrings: true,
       ignoreTemplateLiterals: true,
     }],
-    "react/no-did-update-set-state": 0,
-    "react/state-in-constructor": 0,
     "react/jsx-props-no-spreading": 0,
     "import/no-cycle": 0,
 
-    /////////
+    // rules to revisit in future airbnb updates
+    "react/no-did-update-set-state": 0,
+    "react/state-in-constructor": 0,
 
     // Old rules to investigate removing
     "class-methods-use-this": 0,
