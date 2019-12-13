@@ -50,7 +50,7 @@ module.exports = {
     "no-unused-vars": 1,
     "react/no-unused-prop-types": 1,
     "arrow-body-style": 1,
-    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }],
+    "arrow-parens": 1,
     "import/prefer-default-export": 1,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -67,8 +67,6 @@ module.exports = {
     "react/state-in-constructor": 0,
     "react/jsx-props-no-spreading": 0,
     "import/no-cycle": 0,
-    "react/jsx-fragments": 0,
-    "react/jsx-curly-newline": 0,
 
     /////////
 
