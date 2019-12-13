@@ -50,7 +50,7 @@ module.exports = {
     "no-unused-vars": 1,
     "react/no-unused-prop-types": 1,
     "arrow-body-style": 1,
-    "arrow-parens": 0,
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }],
     "import/prefer-default-export": 1,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
