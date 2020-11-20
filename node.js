@@ -5,8 +5,8 @@ module.exports = {
     jest: true,
   },
   extends: 'airbnb-base',
-  parser: 'babel-eslint',
-  plugins: ['babel', 'node'],
+  parser: '@babel/eslint-parser',
+  plugins: ['@babel', 'node'],
   rules: {
     'no-unused-vars': 1,
     'arrow-body-style': 1,
