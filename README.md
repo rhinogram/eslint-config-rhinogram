@@ -29,7 +29,6 @@ Alternatives:
 }
 ```
 
-#### Updating this package
-When upgrading this eslint config, check the following:
-* Run `yarn audit` to ensure there are no security vulnerabilities.
-* Change the `package.json` version appropriately.
+# Releasing
+
+Once merged into `master`, publish a new release in GitHub following the rules of [semantic versioning](https://semver.org).
