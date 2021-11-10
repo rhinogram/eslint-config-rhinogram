@@ -13,9 +13,9 @@ jobs:
       - restore_cache:
           key: v1-{{ checksum "package.json" }}
       - run: yarn
-      # - run:
-      #     name: Audit NPM Packages
-      #     command: yarn audit
+      - run:
+          name: Audit NPM Packages
+          command: yarn audit
       - save_cache:
           key: v1-{{ checksum "package.json" }}
           paths:
