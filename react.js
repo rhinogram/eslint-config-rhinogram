@@ -68,7 +68,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
     'no-console': ["warn", { allow: ["error"] }],
     'react/prop-types': [1, { ignore: ['match', 'history', 'params', 'location'], skipUndeclared: true }],
-    'no-param-reassign': ['warn', { props: true, ignorePropertyModificationsFor: ['state'] }],
+    'no-param-reassign': ['warn', { props: true, ignorePropertyModificationsFor: ['state', 'acc'] }],
 
     /////////
 
