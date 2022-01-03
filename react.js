@@ -10,7 +10,7 @@ module.exports = {
   },
   parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 9,
+    ecmaVersion: 12,
     sourceType: 'module',
     ecmaFeatures: {
       arrowFunctions: true,
@@ -48,7 +48,6 @@ module.exports = {
     'arrow-parens': 1,
     'import/prefer-default-export': 1,
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
     'react/prefer-stateless-function': 1,
     'react/jsx-indent': 1,
     'max-len': [
@@ -64,6 +63,12 @@ module.exports = {
       },
     ],
     'react/no-did-update-set-state': 0,
+    'react/jsx-no-bind': 0,
+    'react/state-in-constructor': 0,
+    'react/jsx-props-no-spreading': 0,
+    'no-console': ["warn", { allow: ["error"] }],
+    'react/prop-types': [1, { ignore: ['match', 'history', 'params', 'location'], skipUndeclared: true }],
+    'no-param-reassign': ['warn', { props: true, ignorePropertyModificationsFor: ['state'] }],
 
     /////////
 
@@ -92,6 +97,8 @@ module.exports = {
     'react/require-default-props': 0,
     'react/forbid-prop-types': 0,
     'jsx-a11y/label-has-associated-control': 0,
+    'import/no-cycle': 0,
+    'react-hooks/exhaustive-deps': 0,
     /////////
   },
 };
