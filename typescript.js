@@ -3,7 +3,8 @@ module.exports = {
   parserOptions: {
     "project": [
       "tsconfig.json"
-    ]
+    ],
+    "projectFolderIgnoreList": ['**/node_modules/**']
   },
   plugins: [
     "@typescript-eslint",
