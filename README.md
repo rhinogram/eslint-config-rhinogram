@@ -27,6 +27,10 @@ Alternatives:
 {
   "extends": "rhinogram/node"
 }
+
+{
+  "extends": "rhinogram/typescript"
+}
 ```
 
 # Releasing
