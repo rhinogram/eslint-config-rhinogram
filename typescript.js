@@ -76,6 +76,7 @@ module.exports = {
     "@typescript-eslint/lines-between-class-members": 0,
     "@typescript-eslint/no-var-requires": 0,
     "@typescript-eslint/no-inferrable-types": 0,
-    "@typescript-eslint/no-explicit-any": 0
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/return-await": 0
   }
 };
